@@ -6,6 +6,7 @@ body {
     align-items: center;
     justify-content: center;
     height: 100vh;
+    background-color: hsl(30, 38%, 92%);
 }
 
 .img-container img {
@@ -17,10 +18,23 @@ body {
     width: 300px;
     height: 450px;
     padding: 25px;
+    background-color: hsl(0, 0%, 100%);
+    font-family: 'Montserrat', sans-serif;
+    color: hsl(212, 21%, 14%)
+}
+
+.info-container h4 {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color
+}
+
+.info-container h1 {
+    font-family: 'Fraunces', serif;
 }
 
 .main-card {
-    display: flex;;
+    display: flex;
     border-radius: 10px;
     height: 450px;
     width: 600px;
