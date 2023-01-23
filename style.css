@@ -78,6 +78,10 @@ body {
     cursor: pointer;
 }
 
+.btn:active {
+    background-color: hsl(158, 38%, 19%);
+}
+
 
 
 .attribution { 
