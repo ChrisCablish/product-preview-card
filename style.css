@@ -20,13 +20,21 @@ body {
     padding: 25px;
     background-color: hsl(0, 0%, 100%);
     font-family: 'Montserrat', sans-serif;
-    color: hsl(212, 21%, 14%)
+    color: hsl(212, 21%, 14%);
+   
+}
+
+.info-container p {
+    font-size: 14px;
+    line-height: 22px;
+    opacity: 0.7;
 }
 
 .info-container h4 {
     text-transform: uppercase;
-    letter-spacing: 2px;
-    color
+    letter-spacing: 4px;
+    font-size: 12px;
+    opacity: 0.5;
 }
 
 .info-container h1 {
@@ -40,9 +48,42 @@ body {
     width: 600px;
     overflow: hidden;
 }
+
+.price-container {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.high-price {
+    text-decoration: line-through;
+    font-size: 12px;
+    opacity: 0.5;
+}
+
+.low-price {
+    font-size: 24px;
+    font-weight: bold;
+    color: hsl(158, 36%, 37%);
+}
+
+.btn {
+    background-color: hsl(158, 36%, 37%);
+    padding: 10px;
+    border-radius: 5px;margin-top: 30px;
+    text-align: center;
+    color: white;
+}
+
+.btn:hover {
+    cursor: pointer;
+}
+
+
+
 .attribution { 
     font-size: 11px; text-align: center; 
 }
 .attribution a { 
     color: hsl(228, 45%, 44%); 
 }
+
